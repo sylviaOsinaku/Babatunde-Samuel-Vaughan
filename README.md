@@ -1,70 +1,89 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Babatunde Vaughan's Portfolio
 
-## Available Scripts
+This is the personal portfolio website of **Babatunde Vaughan**, a seasoned Human Capacity Development Expert and Consultant with over eight years of experience in strategic program management, talent development, and community engagement. This website highlights Babatunde’s achievements, work experience, and testimonials from people he has worked with throughout his career.
 
-In the project directory, you can run:
+## Table of Contents
+- [Introduction](#introduction)
+- [Technologies Used](#technologies-used)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [File Structure](#file-structure)
+- [Contributing](#contributing)
+- [License](#license)
 
-### `npm start`
+## Introduction
+This portfolio provides an overview of Babatunde Vaughan’s professional experience, ranging from program management at Microsoft to leadership in the Youth-Minds Alignment and Development Centre. The portfolio also showcases testimonials from people who have worked with Babatunde, highlighting his skills in driving social impact and fostering leadership.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
+- **React.js**: For building a dynamic user interface.
+- **Material UI (MUI)**: For responsive layout and UI components.
+- **CSS Modules**: For styling and component-specific CSS.
+- **PropTypes**: For type checking the components.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
+- **Responsive Design**: Adjusts layout and components for mobile and desktop view.
+- **Experience Timeline**: Displays detailed professional experience, with each job role described in detail.
+- **Testimonial Slider**: A carousel showcasing testimonials from Babatunde’s colleagues and partners.
+- **Tabs Layout**: Utilizes MUI's Tabs for displaying different job experiences.
+- **Horizontal/Vertical Tabs**: Adaptive experience section with vertical tabs for desktop and horizontal tabs for mobile.
+  
+## Installation
+To run this project locally, follow these steps:
 
-### `npm test`
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-username/babatunde-vaughan-portfolio.git
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. **Navigate to the project directory**:
+   ```bash
+   cd babatunde-vaughan-portfolio
+   ```
 
-### `npm run build`
+3. **Install the dependencies**:
+   ```bash
+   npm install
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. **Run the development server**:
+   ```bash
+   npm start
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   The website should now be running at `http://localhost:3000`.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Usage
+- **Experience Section**: Browse through Babatunde’s professional experience, either by using the vertical/horizontal tabs.
+- **Testimonial Section**: Read testimonials from colleagues and partners to gain insights into Babatunde’s expertise and work ethic.
+  
+## File Structure
 
-### `npm run eject`
+```
+babatunde-vaughan-portfolio/
+│
+├── public/
+│   └── index.html
+├── src/
+│   ├── components/
+│   │   ├── ExperienceCard.js
+│   │   ├── MaterialExperience.js
+│   │   └── TestimonialSlider.js
+│   ├── App.js
+│   ├── index.js
+│   └── assets/
+│       └── images/   # Placeholder for images used in the project
+├── .gitignore
+├── package.json
+└── README.md
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Contributing
+If you would like to contribute to this project, feel free to open a pull request or submit an issue. We welcome all improvements and suggestions.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## License
+This project is licensed under the MIT License.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
