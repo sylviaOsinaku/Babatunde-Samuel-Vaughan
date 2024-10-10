@@ -88,6 +88,9 @@ img:hover {
     height: 320px;
     width: 95%;
   }
+  .image-wrapper{
+    padding: .8em;
+  }
 
   .mainContainer {
     height: 40vh;
