@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import classes from './Recommendations.module.css';
-import babaT from '../../assests/images/BabaT-10.jpg';
- import test1 from '../../assests/images/tes-1.jpg'
+import IconArrowLeftShort from '../../ui/IconLeft';
+import IconArrowRightShort from '../../ui/RightArrow';
 function Recommendations() {
   const [isMobile, setIsMobile] = useState(false);
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -78,7 +78,7 @@ function Recommendations() {
       {/* Conditionally render slider for mobile screens */}
       {isMobile ? (
         <div className={classes["slider"]}>
-          <button className={classes["prev-btn"]} onClick={prevSlide}>←</button>
+          <button className={classes["prev-btn"]} onClick={prevSlide}><IconArrowLeftShort/></button>
           
           
           {testimonials.map((tes, index) => (
@@ -100,7 +100,7 @@ function Recommendations() {
            
             </div>
           ))}
-          <button className={classes["next-btn"]} onClick={nextSlide}>→</button>
+          <button className={classes["next-btn"]} onClick={nextSlide}><IconArrowRightShort/></button>
         </div>
       ) : (
         <div className={classes["tes-container"]}>

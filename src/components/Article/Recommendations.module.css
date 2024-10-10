@@ -99,6 +99,9 @@
   width: 2.5rem;
   cursor: pointer;
   color: #fff;
+ text-align: center;
+  font-weight: 900;
+  margin: auto;
 }
 
 .prev-btn {
