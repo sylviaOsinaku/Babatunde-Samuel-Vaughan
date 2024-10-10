@@ -98,14 +98,14 @@ const MainNav = () => {
           </Link>
           <Link
             activeClass="active"
-            to="contact"
+            to="reccomendations"
             spy={true}
             smooth={true}
             offset={-70}
             duration={500}
             onClick={showNav && showMobileNav}
           >
-            KeyProjects
+           Reccomendations
           </Link>
           <Link
             className={classes["resume"]}

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import classes from './Recommendations.module.css';
 import babaT from '../../assests/images/BabaT-10.jpg';
-
+ import test1 from '../../assests/images/tes-1.jpg'
 function Recommendations() {
   const [isMobile, setIsMobile] = useState(false);
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -23,27 +23,34 @@ function Recommendations() {
     {
       name: "John Igwe",
       testimony: "Babatunde’s passion for improving people and communities shines through. His expertise in tech, social development, and innovation makes him a strategic thinker and a valuable asset to any organization or team.",
-      profileImage: ""
+      profileImage: "../../assests/images/tes-1.jpg",
+      role:"Product Manager, Microsoft "
     },
     {
       name: "Olagoke Majekodunmi",
       testimony: "Babatunde is goal-driven and persistent. He excels as a program manager with strong communication, team-building, and problem-solving abilities. He tackles ambitious challenges with unwavering determination.",
-      profileImage: ""
+      profileImage: "../../assests/images/tes-2.jpg",
+      role:"Data Analyst, Microsoft "
     },
     {
       name: "Stephen Ebichondo",
       testimony: "Babatunde delivers under pressure and excels in demanding situations. His creativity, strong work ethic, and commitment make him a reliable professional in the IT industry, always achieving high-impact results.",
-      profileImage: ""
+      profileImage: "../../assests/images/tes-3.jpg"
+  ,
+      role:"Senior Service Engineer, Microsoft "
     },
     {
       name: "Amos Gabriel",
       testimony: "Babatunde’s integrity, leadership, and emotional intelligence are exemplary. He is purpose-driven, focused, and brings contagious positivity to his work. His competence and professionalism are outstanding in all his endeavors.",
-      profileImage: ""
+      profileImage: "../../assests/images/tes-4.jpg",
+      role:"Youth life coach, Change Management "
     },
     {
       name: "Ayodele Odeogbola, M.A",
       testimony: "Babatunde is a goal-oriented team player with excellent communication, negotiation, and leadership skills. His work in teacher engagement and technology integration at Microsoft Education has left a lasting, scalable impact.",
-      profileImage: ""
+      profileImage: "../../assests/images/tes-5.jpg"
+      ,
+      role:"Co-founder, TedPrime "
     }
   ];
 
@@ -58,7 +65,7 @@ function Recommendations() {
   };
 
   return (
-    <div className={classes['recommendation-container']}>
+    <div className={classes['recommendation-container']} id='reccomendations'>
       <div className={classes["about-wrapper"]}>
         <div className={classes["header-wrapper"]}>
           <h2><span>03.</span>Recommendations</h2>
@@ -83,10 +90,10 @@ function Recommendations() {
               <div className={classes['testimony-wrapper']}>
               <p className={classes['main-text']}>{tes.testimony}</p>
               <div className={classes['profile-wrapper']}>
-                <img src={babaT} alt="Profile" />
+                <img src={tes.profileImage} alt="Profile" />
                 <div>
                   <h4>{tes.name}</h4> 
-                  <p>Lorem ipsum dolor sit amet.</p>
+                  <p>{tes.role}</p>
                 </div>
               </div>
               </div>
@@ -101,10 +108,10 @@ function Recommendations() {
             <div className={classes['testimony-wrapper']} key={"tes" + index}>
               <p className={classes['main-text']}>{tes.testimony}</p>
               <div className={classes['profile-wrapper']}>
-                <img src={babaT} alt="Profile" />
+                <img src={tes.profileImage} alt="Profile" />
                 <div>
                   <h4>{tes.name}</h4> 
-                  <p>Lorem ipsum dolor sit amet.</p>
+                  <p>{tes.role}.</p>
                 </div>
               </div>
             </div>
