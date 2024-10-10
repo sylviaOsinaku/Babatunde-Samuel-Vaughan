@@ -28,9 +28,7 @@ function ExperienceCard({ company }) {
         ))}
       </div>
 
-      {/* <div>
-        <h2>View Featured Projects, Articles and Blogs</h2>
-      </div> */}
+      
     </div>
   );
 }

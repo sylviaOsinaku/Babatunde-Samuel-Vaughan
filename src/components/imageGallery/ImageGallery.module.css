@@ -1,6 +1,6 @@
 .image-wrapper {
   background-color: #393636;
-  padding: 2em;
+  padding: 1.5em;
   /* Dark background color */
 }
 
@@ -21,7 +21,7 @@
 
 .slideTrack {
   display: flex;
-  width: calc(250px * 45);
+  width: calc(280px * 45);
   animation: scroll 100s linear infinite;
 }
 
@@ -35,13 +35,13 @@
   }
 
   100% {
-    transform: translateX(calc(-250px * 9));
+    transform: translateX(calc(-280px * 9));
   }
 }
 
 .slide {
   height: 200px;
-  width: 250px;
+  width: 280px;
   display: flex;
   align-items: center;
   padding: 10px;
@@ -66,7 +66,7 @@ img:hover {
   content: '';
   height: 100%;
   position: absolute;
-  width: 15%;
+  width: 25%;
   z-index: 2;
 }
 

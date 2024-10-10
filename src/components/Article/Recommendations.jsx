@@ -73,7 +73,7 @@ function Recommendations() {
         <div className={classes.horizontalLine}></div>
       </div>
 
-      <h3>Voices of Impact: Community Reflections on Babatunde's Leadership</h3>
+      <h3>Voices of Impact: Community Reflections on Babatunde Vaughan's Leadership</h3>
       
       {/* Conditionally render slider for mobile screens */}
       {isMobile ? (
