@@ -34,3 +34,44 @@
   font-weight: 800;
   font-style: normal;
 }
+
+/* App.css */
+.loading-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+ background: #393636;
+}
+
+.loading-logo {
+  width: 150px;
+  height: auto;
+  margin-right: 20px; /* Space between logo and animated box */
+}
+
+.loading-box {
+  width: 50px;
+  height: 50px;
+  background-color: #ffa500; /* Customize color */
+  animation: boxAnimation 2s ease-in-out infinite;
+}
+
+/* Define the animation */
+@keyframes boxAnimation {
+  0% {
+    transform: scale(1);
+    width: 50px;
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.2);
+    width: 100px; /* Increase the width here */
+    opacity: 0.7;
+  }
+  100% {
+    transform: scale(1);
+    width: 50px; /* Return to original width */
+    opacity: 1;
+  }
+}

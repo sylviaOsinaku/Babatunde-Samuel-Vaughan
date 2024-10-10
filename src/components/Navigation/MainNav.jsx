@@ -4,7 +4,7 @@ import classes from "./MainNav.module.css";
 import { motion } from "framer-motion";
 import IconHamburger from "../../ui/IconHamburger";
 import IconClose from "../../ui/IconClose";
-import bvLogo from '../../assests/images/BABTUNDE VAUGAN+.png'
+
 import IconLetterB from "../../ui/IconLetterB";
 import IconLetterV from "../../ui/IconLetterV";
 const MainNav = () => {
