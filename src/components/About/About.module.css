@@ -122,7 +122,9 @@
     margin-top: 1em;
   }
 
-  .text-content-main-wrapper {}
+  .text-content-main-wrapper {
+    text-align: start;
+  }
 
   .text-content-wrapper {
     flex-basis: 100%;

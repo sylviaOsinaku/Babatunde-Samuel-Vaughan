@@ -75,3 +75,10 @@
     opacity: 1;
   }
 }
+
+@media(max-width:768px) {
+
+  .loading-logo{
+    width: 180px;
+  }
+}
