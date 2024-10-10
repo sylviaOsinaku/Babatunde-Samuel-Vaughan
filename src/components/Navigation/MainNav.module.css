@@ -1,0 +1,128 @@
+.container {
+  background-color: #393636;
+  font-size: 1rem;
+  font-family: monospace;
+  font-weight: 600;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  padding: 1em;
+}
+
+.container a {
+  text-decoration: none;
+}
+.logo-wrapper{
+  display: flex;
+  gap: -1em;
+ color: #fFa500;
+  cursor: pointer;
+  font-weight: 900;
+}
+
+
+.nav-wrapper {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .8em;
+  color: #f3f3f3;
+}
+
+
+.resume {
+  padding: .5em;
+  border: 1.5px solid #fFa500;
+  background-color: rgb(103, 67, 0);
+  border-radius: 3px;
+  color: #fFa500;
+}
+
+.right-section-wrapper-desktop a {
+  margin-left: 1em;
+  transition: all .25s;
+  cursor: pointer;
+  font-weight: 900;
+}
+
+.nav-wrapper a:hover {
+
+  font-size: 1.2em;
+  background: -webkit-linear-gradient(#fFa500, #E67E22);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.menu-icon,
+.close-icon {
+  display: none;
+}
+
+@media(max-width:768px) {
+  .container {
+    position: fixed;
+  }
+
+  .right-section-wrapper-desktop {
+    display: none;
+  }
+
+  .right-section-wrapper-mobile {
+    display: block;
+    background: linear-gradient(180deg, rgb(16, 1, 27) 0%, rgb(81, 32, 32) 100%);
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 3000;
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    width: 65%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .right-section-wrapper-mobile a {
+    margin-bottom: 2em;
+    font-size: 1.5rem;
+    transition: all .25s;
+    cursor: pointer;
+  }
+
+  .menu-icon,
+  .close-icon {
+    display: block;
+    color: indianred;
+    cursor: pointer;
+
+  }
+
+  .close-icon {
+
+    position: absolute;
+    top: 20px;
+    right: 60px;
+  }
+
+  .content-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 10;
+    background: rgba(0, 0, 0, .3);
+
+  }
+}
+
+@media(max-width:340px) {
+  .right-section-wrapper-mobile a {
+    font-size: 1.2rem;
+  }
+}

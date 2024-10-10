@@ -1,0 +1,66 @@
+.imageContainer {
+  position: relative;
+  display: inline-block;
+  transition: transform 0.3s ease;
+  padding: 0;
+  /* No padding */
+}
+
+.imageWrapper {
+  position: relative;
+  display: inline-block;
+  z-index: 2;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+}
+
+.imageWrapper:hover .image {
+  filter: grayscale(0%);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(128, 128, 128, 0.3);
+  /* Light gray with 50% opacity */
+  transition: opacity 0.3s ease;
+  opacity: 0.7;
+
+  z-index: 1;
+}
+
+.imageWrapper:hover .overlay {
+  opacity: 0;
+  /* Overlay fades out on hover */
+}
+
+.imageContainer::before {
+  content: '';
+  position: absolute;
+  top: 2em;
+  /* Moves the top border off-screen */
+  left: 1.2em;
+  right: -1.2em;
+  /* Extends the border slightly to the right */
+  bottom: -1em;
+  /* Extends the border below the image */
+  border: 2px solid orange;
+  /* Thinner border */
+  z-index: 0;
+  /* Places the border behind the image */
+  transition: transform 0.3s ease;
+}
+
+.imageContainer:hover::before {
+  transform: scale(1.05);
+  /* Border grows on hover */
+}

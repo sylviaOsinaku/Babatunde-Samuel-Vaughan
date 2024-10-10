@@ -1,0 +1,158 @@
+/* styles.module.css */
+.horizontalLine {
+  width: 300px;
+  height: 1px;
+  background-color: grey;
+  border: none;
+  margin: 20px 0;
+
+  /* Optional spacing */
+  text-align: center;
+}
+
+.about-container {
+  background-color: #393636;
+  padding: 2.5em 7em;
+  font-family: "Poppins", system-ui;
+  color: rgb(211, 211, 211)
+}
+
+.about-wrapper {
+  display: flex;
+  gap: 2em;
+  align-items: center;
+}
+
+.header-wrapper span {
+  margin-right: .5em;
+  color: orange;
+}
+
+.header-wrapper h2 {
+  color: rgb(255, 249, 249);
+}
+
+.main-about-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2em;
+  width: 100%;
+  gap: 2.5em;
+}
+
+.text-content-wrapper-aesthetic {
+  color: orange;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.text-content-wrapper {
+  flex-basis: 65%;
+
+  color: rgb(247, 235, 235);
+
+}
+
+
+.text-content-main-wrapper {
+  margin-bottom: 1.5em;
+  font-size: 1.15em;
+}
+
+.text-content-main-wrapper p {
+  margin-bottom: 1.2em;
+}
+
+.here-skills-container {
+  margin-bottom: 1em;
+  font-weight: 900;
+  font-size: 1.5em;
+}
+
+.about-image-wrapper {
+  flex-basis: 35%;
+  margin-top: 2em;
+}
+
+.about-image-wrapper img {
+  width: 100%;
+  height: auto;
+}
+
+.skills-container {
+  margin-top: 2em;
+  font-family: monospace;
+}
+
+.skills-wrapper {
+  display: flex;
+  font-size: 1.2em;
+  font-weight: 600;
+  gap: .4em;
+  align-items: center;
+  margin-bottom: .8em;
+}
+
+.skills-wrapper-text {
+  color: rgba(211, 211, 211, 0.956);
+}
+
+.skills-wrapper span {
+  color: orange;
+}
+
+.professional-skills-wrapper {
+  display: flex;
+  gap: 2em;
+}
+
+@media(max-width:768px) {
+  .about-container {
+    padding: 3em 2em;
+
+
+  }
+
+  .about-wrapper {
+    flex-direction: column;
+    gap: 0em;
+  }
+
+  .main-about-container {
+    flex-direction: column;
+    margin-top: 1em;
+  }
+
+  .text-content-main-wrapper {}
+
+  .text-content-wrapper {
+    flex-basis: 100%;
+    text-align: center;
+  }
+
+  .about-image-wrapper {
+    flex-basis: 90%;
+  }
+
+
+
+  .here-skills-container {
+    font-weight: 800;
+    font-size: 1.3rem;
+    text-align: start;
+    margin-top: 1em;
+    margin-bottom: .5em;
+  }
+
+  .professional-skills-wrapper {
+    flex-direction: column;
+    gap: 0em;
+    font-size: 1rem;
+    align-items: start;
+    margin-top: 1em;
+  }
+
+  .skills-container {
+    margin-top: 2em;
+  }
+
+}

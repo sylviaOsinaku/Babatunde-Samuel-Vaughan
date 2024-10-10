@@ -1,0 +1,51 @@
+.intro-container {
+  background-color: #393636;
+  color: #fff;
+  padding-top: 10em;
+  font-family: "Poppins", system-ui;
+  text-align: center;
+  padding-bottom: 2em;
+}
+
+.intro-container h1 {
+  margin-bottom: 1em;
+  font-size: 3em;
+  line-height: 60px;
+}
+
+.intro-container span {
+  font-family: "Marck Script", cursive;
+  color: orange;
+
+}
+
+.intro-container p {
+  font-size: 1.2em;
+  font-family: "Poppins", system-ui;
+  font-weight: 500;
+  line-height: 27px;
+  width: 60%;
+  word-wrap: break-word;
+  margin: auto;
+}
+
+@media(max-width:768px) {
+  .intro-container h1 {
+    font-size: 2.5em;
+  }
+
+  .intro-container {
+    padding-top: 7em;
+  }
+
+  .intro-container p {
+    word-wrap: break-word;
+    width: 80%;
+    margin: auto;
+  }
+
+  .intro-container h1 {
+    line-height: 53px;
+  }
+  
+}

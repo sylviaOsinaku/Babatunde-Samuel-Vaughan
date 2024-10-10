@@ -1,0 +1,133 @@
+.recommendation-container {
+  background-color: #393636;
+  padding: 2.5em 7em;
+  font-family: "Poppins", system-ui;
+  color: rgb(211, 211, 211);
+}
+
+.horizontalLine {
+  width: 300px;
+  height: 1px;
+  background-color: grey;
+  margin: 20px 0;
+}
+
+.about-wrapper {
+  display: flex;
+  gap: 2em;
+  align-items: center;
+}
+
+.header-wrapper span {
+  margin-right: 0.5em;
+  color: orange;
+}
+
+.header-wrapper h2 {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.recommendation-container h3 {
+  color: #e4dedf;
+  margin-top: 0.8em;
+  margin-bottom: 1.2em;
+}
+
+.slider {
+  position: relative;
+  overflow: hidden;
+  height: 22rem;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.slide {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 1s ease;
+}
+
+
+.tes-container{
+  display: flex;
+ justify-content: space-around;
+ flex-wrap: wrap;
+}
+.testimony-wrapper {
+  border: 2px solid #9b7171;
+  padding: 1em;
+  flex: 1 1 30%;
+  background-color: rgba(0, 0, 0, 0.95);
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  color: #fff;
+
+  margin: 10px;
+}
+
+.main-text {
+  word-wrap: break-word;
+  width: 100%;
+  padding-bottom: 2em;
+}
+
+.profile-wrapper {
+  display: flex;
+  gap: 1em;
+}
+
+.profile-wrapper img {
+  width: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.slider button {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+ background-color: rgba(255, 255, 255, 0.5);
+  border: none;
+  border-radius: 50%;
+  height: 2.5rem;
+  width: 2.5rem;
+  cursor: pointer;
+  color: #fff;
+}
+
+.prev-btn {
+  left: 6%;
+  transform: translate(-50%, -50%);
+}
+
+.next-btn {
+  right: 6%;
+  transform: translate(50%, -50%);
+}
+
+@media (max-width: 768px) {
+  .recommendation-container {
+    padding: 1em;
+  }
+  .testimony-wrapper{
+    padding: 1.5em 4em;
+    text-align: start;
+    margin: 0px;
+   
+    
+  }
+  .slider{
+    height: 22rem;
+  }
+  .main-text{
+    margin-bottom: 3em;
+  }
+}
+
+

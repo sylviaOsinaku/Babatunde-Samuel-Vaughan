@@ -1,0 +1,71 @@
+.contacts-container {
+  padding: 4em 0em;
+  text-align: center;
+  background-color: #393636;
+  font-family: "Poppins", "system ui";
+
+}
+
+.whats-next {
+  font-size: 2rem;
+  margin-bottom: .5em;
+  color: rgb(255, 249, 249);
+ font-weight: 900;
+}
+
+.contacts-container h2 {
+  color: orange;
+  font-size: 2.7rem;
+  margin-bottom: .3em;
+
+}
+.contacts-text-wrapper{
+  color: rgb(211, 211, 211);
+  width: 70%;
+  font-size: 1.1em;
+  margin: auto;
+  line-height: 30px;
+  word-wrap: break-word;
+}
+
+
+
+.contacts-container a {
+  border: 1.5px solid #fFa500;
+  background-color: rgb(103, 67, 0);
+  margin-top: 2em;
+  display: inline-block;
+  padding: .8em 2em;
+  text-decoration: none;
+  transition: all .25s;
+  cursor: pointer;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+.contacts-container a:hover{
+  color: #ffe7b9;
+}
+
+.scroll-wrapper {
+  margin: 2em auto;
+  border: 3.5px solid #fFa500;
+  padding: 1em;
+  border-radius: 50%;
+  display: block;
+font-size: 1.2rem;
+cursor: pointer;
+}
+
+.design-wrapper{
+  padding: 2em;
+  background-color: #393636;
+  color: #ffe7b9;
+  text-align: end;
+  font-weight: 900;
+  font-family: "Poppins", "system ui";
+}
+.design-wrapper a{
+  color: #ffcf75;
+}
