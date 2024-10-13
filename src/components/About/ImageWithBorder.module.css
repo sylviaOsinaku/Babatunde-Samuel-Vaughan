@@ -16,32 +16,12 @@
   display: block;
   width: 100%;
   height: auto;
-  filter: grayscale(100%);
+ 
   transition: filter 0.3s ease;
 }
 
-.imageWrapper:hover .image {
-  filter: grayscale(0%);
-}
 
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(128, 128, 128, 0.3);
-  /* Light gray with 50% opacity */
-  transition: opacity 0.3s ease;
-  opacity: 0.7;
 
-  z-index: 1;
-}
-
-.imageWrapper:hover .overlay {
-  opacity: 0;
-  /* Overlay fades out on hover */
-}
 
 .imageContainer::before {
   content: '';

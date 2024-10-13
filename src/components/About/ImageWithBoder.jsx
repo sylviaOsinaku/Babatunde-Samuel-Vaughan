@@ -6,12 +6,11 @@ const ImageWithBorder = () => {
 
   return (
     <div
-      className={`${styles.imageContainer} ${hovered ? styles.hovered : ""}`}
-      onMouseEnter={() => setHovered(true)}
-      onMouseLeave={() => setHovered(false)}
+      className={`${styles.imageContainer}`}
+     
     >
       <div className={styles.imageWrapper}>
-        <div className={styles.overlay}></div>
+       
         <img src={profilepicture} alt="Description" className={styles.image} />
       </div>
     </div>
