@@ -60,7 +60,7 @@
  flex-wrap: wrap;
 }
 .testimony-wrapper {
-  border: 2px solid #9b7171;
+  border: 2px solid #4d4949;
   padding: 1em;
   flex: 1 1 30%;
   background-color: #242323;
@@ -92,7 +92,7 @@
   position: absolute;
   top: 50%;
   z-index: 10;
- background-color: #2c2c2c;
+ background-color: #3d3b3b;
   border: none;
   border-radius: 50%;
   height: 2.5rem;
