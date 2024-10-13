@@ -142,7 +142,8 @@ export default function MaterialExperience() {
     <Box
       sx={{
         flexGrow: 1,
-        bgcolor: "#393636",
+       
+        bgcolor: "#1C1C1C" ,
         display: "flex",
         height: "auto",
         flexDirection: isMobile ? "column" : "row",

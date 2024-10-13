@@ -1,6 +1,6 @@
 .intro-container {
-  background-color: #393636;
-  color: #fff;
+  background-color: #1C1C1C;
+  color: #ffff;
   padding-top: 10em;
   font-family: "Poppins", system-ui;
   text-align: center;
@@ -15,7 +15,7 @@
 
 .intro-container span {
   font-family: "Marck Script", cursive;
-  color: orange;
+  color: #ffa500;
 
 }
 

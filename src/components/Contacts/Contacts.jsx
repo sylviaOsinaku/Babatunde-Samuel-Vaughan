@@ -14,7 +14,8 @@ function Contacts() {
       <p className={classes["whats-next"]}>What's Next?</p>
       <h2>Get in touch</h2>
       <p  className={classes["contacts-text-wrapper"]} >
-      If you're seeking to develop innovative, impact-driven business models that foster a culture of excellence, I can help. With over a decade of experience leading educational and talent development programs across Africa, I've successfully designed and managed transformative initiatives, fostering partnerships, and scaling impactful projects. Let’s work together to empower your team with forward-thinking strategies that drive consistent value and a competitive edge
+      If you're seeking to develop innovative, impact-driven business models that foster a culture of excellence, I can help. I've successfully designed and managed transformative initiatives, fostering partnerships,
+       and scaling impactful projects. Let’s work together to empower your team with forward-thinking strategies that drive consistent value and a competitive edge
       </p>
       <motion.a
         href="mailto:babatunde.vaughan@hotmail.com?subject=my email address"
